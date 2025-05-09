@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.head{
+    display: block;
+    padding: 25px 70px;
+
+}
+.first-h{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.left-box{
+
+}
+.right-box{
+
+}
+
+.search{
+    width: 40vw;
+    padding: 13px;
+    border: none;
+    background: rgb(231, 230, 227);
+    border-radius:8px;
+    font-size: 15px;
+}
+
+.nav-box{
+    display: flex;
+    gap: 40px;
+    padding-top: 27px;
+
+}
+
+.a{
+    color: black;
+}
+
+
+.hero{
+    display: flex;
+}
+
+.hero1{
+
+}
+
+.shop{
+display: flex;
+justify-content: space-between;
+padding: 10px 50px;
+}
+
+.shop-now{
+    width: 90%;
+    padding: 7px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.hero-img{
+ padding-left: 30px;
+ position: relative;
+}
+
+.gift{
+    width: 45%;
+    position: absolute;
+    right: 15px;
+    bottom: 50%;
+}
+
+.gift-h{
+    width: 75%;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.learn-more{
+  width: 15%;
+  padding: 7px;
+  border-radius: 50px;
+  background: black;
+  color: white;
+}
+
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.bag{
+    padding: 15px;
+}
+
+.img-s{
+    background: #f1f1f1;
+    padding: 15px;
+    gap: 10px;
+    width: 250px;
+    height: 210px;
+
+}
+
+.b-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bags{
+
+}
+
+.add{
+    padding: 10px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+}
