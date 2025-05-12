@@ -17,8 +17,13 @@
 }
 
 .left-box{
-
+  
 }
+
+.logo{
+    color: black;
+}
+
 .right-box{
 
 }
@@ -48,10 +53,6 @@
     display: flex;
 }
 
-.hero1{
-
-}
-
 .shop{
 display: flex;
 justify-content: space-between;
@@ -59,7 +60,6 @@ padding: 10px 50px;
 }
 
 .shop-now{
-    width: 90%;
     padding: 7px;
     background: black;
     color: white;
@@ -86,14 +86,6 @@ padding: 10px 50px;
     color: black;
 }
 
-.learn-more{
-  width: 15%;
-  padding: 7px;
-  border-radius: 50px;
-  background: black;
-  color: white;
-}
-
 .section1{
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +100,7 @@ padding: 10px 50px;
 
 .img-s{
     background: #f1f1f1;
-    padding: 15px;
+    padding: 10px;
     gap: 10px;
     width: 250px;
     height: 210px;
@@ -121,13 +113,35 @@ padding: 10px 50px;
     gap: 15px;
 }
 
-.bags{
-
-}
-
 .add{
     padding: 10px;
     border-radius: 50px;
     background: black;
     color: white;
+}
+
+@media (max-width:600px) { 
+    .nav-box{
+        display: none;
+    }
+   
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
+    .img-s{
+        width: 190px;
+    }
+
+    .shop-now{
+        width: 90px;
+    }
+    .gift-h{
+    }
+    
+
+    .logo{
+        width: 190px;
+        font-size: 17px;
+    }
 }
