@@ -65,6 +65,7 @@ padding: 10px 50px;
     color: white;
     border-radius: 50px;
     align-items: center;
+    width: 90px;
 }
 
 .hero-img{
@@ -133,15 +134,15 @@ padding: 10px 50px;
         width: 190px;
     }
 
-    .shop-now{
-        width: 90px;
+    .gift-h1{
+        width: 65%;
     }
-    .gift-h{
-    }
-    
-
     .logo{
         width: 190px;
         font-size: 17px;
     }
 }
+
+@media (width:1300px) { 
+    
+    }
